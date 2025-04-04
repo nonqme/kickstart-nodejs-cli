@@ -1,5 +1,8 @@
 {
-  "name": "@kickstart-nodejs/typescript-template",
+  "name": "@kickstart-nodejs/cli",
+  "bin": {
+    "kickstart": "./dist/bin/cli.js"
+  },
   "version": "0.0.1",
   "description": "",
   "license": "ISC",
